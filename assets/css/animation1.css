@@ -9,7 +9,7 @@ section{
 video{
     object-fit: cover;
     object-position: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 h1{
@@ -25,11 +25,11 @@ h1{
 }
 h1 span{
     display: inline-block;
-    animation: animate 1s linear infinite forwards;
+    animation: animate 2s linear infinite;
     opacity: 0;
 }
 
-h1 span:nth-child(1){
+/* h1 span:nth-child(1){
     animation-delay: 1s;
 }
 h1 span:nth-child(2){
@@ -70,7 +70,7 @@ h1 span:nth-child(13){
 }
 h1 span:nth-child(14){
     animation-delay: 8s;
-}
+} */
 
 
 
@@ -82,7 +82,7 @@ h1 span:nth-child(14){
     }
     100%{
         opacity: 1;
-        transform: rotateY(0deg);
+        transform: rotateY(0);
         /* filter: blur(0); */
     }
 }
