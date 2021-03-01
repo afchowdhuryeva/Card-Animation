@@ -18,7 +18,7 @@ h1{
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-    color: rgb(185, 126, 37);
+    color: rgb(201, 191, 53);
     font-size: 70px;
     font-family: sans-serif;
     letter-spacing: 8px;
@@ -84,5 +84,11 @@ h1 span:nth-child(14){
         opacity: 1;
         transform: rotateY(0);
         /* filter: blur(0); */
+        display: block;
     }
 }
+ 
+/* 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+ } */
